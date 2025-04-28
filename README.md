@@ -25,6 +25,14 @@ Design: ![alt text](./astronautas.gif)
 -   FrontAwesome icons
 -   Display: flex
 -   hover state
+-   Git commands:
+        `git add`
+        `git commit -m "message text"`
+        `git init`
+-   bash commands:
+        `touch index.html`
+        
+
 
 ## 🧰 Getting Started
 
