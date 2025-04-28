@@ -34,6 +34,7 @@ Design: ![alt text](./astronautas.gif)
         `ls -al` (stlpeliu atvaizduoja esanti turini)
         `mkdir img ...`(sukuria folderi img)
         `touch failas.txt failas2.txt failas3.txt...`
+        `rm failo.pavadinimas`(pasalina faila)
 
         
 
