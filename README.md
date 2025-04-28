@@ -30,7 +30,11 @@ Design: ![alt text](./astronautas.gif)
         `git commit -m "message text"`
         `git init`
 -   bash commands:
-        `touch index.html`
+        `touch index.html` (sukuria faila)
+        `ls -al` (stlpeliu atvaizduoja esanti turini)
+        `mkdir img ...`(sukuria folderi img)
+        `touch failas.txt failas2.txt failas3.txt...`
+
         
 
 
