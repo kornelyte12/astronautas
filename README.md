@@ -21,9 +21,10 @@ Design: ![alt text](./astronautas.gif)
 
 -   Github pages
 -   no responsive design
--   inline CSS
--   FrontAwesome icons
--   Display: flex
+-   CSS file
+-   FontAwesome icons
+-   display: flex
+-   favicon
 -   hover state
 -   Git commands:
         `git add`

@@ -5,91 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Astronautas</title>
+
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="icon" type="image/png" href="./favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="./favicon/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="Astro" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
 </head>
 
 <body>
-    <header>
-        <img src="./img/logo.webp" alt="Logo">
-        <nav>
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Job</a>
-            <a href="#">Contact</a>
+    <header class="container">
+        <img class="logo" src="./img/logo.webp" alt="Logo">
+        <nav class="main-nav">
+            <a class="link active" href="#">About</a>
+            <a class="link" href="#">Portfolio</a>
+            <a class="link" href="#">Job</a>
+            <a class="link" href="#">Contact</a>
         </nav>
     </header>
 
-    <main>
-        <div>
-            <h1>404</h1>
-            <p>Lost in space</p>
-            <p>You have reached the edge of the universe. The page you requested coud not be found. Don't worry and return to the previous page.</p>
-            <div>
-                <a href="#">Go home</a>
-                <a href="#">Back</a>
+    <main class="container">
+        <div class="left-column">
+            <h1 class="main-title">404</h1>
+            <p class="sub-title">Lost in space</p>
+            <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magnam quaerat, nam necessitatibus quisquam tempore expedita.</p>
+            <div class="btn-group">
+                <a class="btn" href="#">Go home</a>
+                <a class="btn" href="#">Back</a>
             </div>
         </div>
-        <img src="./img/astronautas.webp" alt="Astronautas su mobiliaku rankoje">
+        <img class="main-img" src="./img/astronautas.webp" alt="Astronautas su mobiliaku rankoje">
     </main>
 
-    <footer>
-        <div>
-            <a href="#">FB</a>
-            <a href="#">TW</a>
-            <a href="#">IN</a>
-            <a href="#">LN</a>
+    <footer class="container">
+        <div class="socials">
+            <a class="icon fa fa-facebook-official" href="#"></a>
+            <a class="icon fa fa-twitter" href="#"></a>
+            <a class="icon fa fa-instagram" href="#"></a>
+            <a class="icon fa fa-linkedin-square" href="#"></a>
         </div>
-        <p>(c) 2025 - All rights reserved</p>
+        <p class="copyright">&copy; 2025 - All rights reserved</p>
     </footer>
 </body>
 
 </html>
-
-<!--
-style="savybe1: reiksme1; kita-savybe2: reiksme2;"
-tekstines savybes galima paveldeti ir rasyti i tevini elementa
-
-Matmavimo vienetai:
-reliatyvus: %, em, vh, vw, fr
-absoliutus: px (pikselis), rem, ch
-
-
-display: none;          elementas nera rodomas
-display: block;         didzioji dalis elementu; deliojimas yra vertikaliai ir uzima kiek gali daugiau plocio
-display: inline;        elgiasi kaip tekstas
-display: inline-block;  elementas yra kompaktiskiausio/minimalaus plocio, bet ne didesnis nei tevinis elementas
-
-width: 100%;            tevinio elemento plocio atzvilgiu
-height: 50px;           aukstis dazniausiai nereguoja i % reiksmes
-
-margin: 10px;           atstumas tarp elementu; visomis kryptimis vienodai
-margin-top: 10px;
-margin-right: 10px;
-margin-bottom: 10px;
-margin-left: 10px;
-
-padding: 10px;           atstumas tarp elemento krasto (border) ir jo turinio (pvz.: tekstas); visomis kryptimis vienodai
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-
-float: left;            priverstinis elemento stumimas pasirinkta kryptimi iki artimiausio kito elemento arba tevinio elemento krasto
-float: right;
-
-background-color: red;  elemento fono spalva
-color: black;           teksto spalva
-
-font-family: Arial;
-font-size: 20px;
-font-weight: bold;
-font-weight: normal;
-font-style: italic;
-
-line-height: 1.2em;
-
-text-transform: uppercase;
-text-decoration: underline;
-text-decoration: none;
-text-align: center;
--->
